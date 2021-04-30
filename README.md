@@ -133,7 +133,7 @@ func navigateToHome() {
     viewController?.navigationController.pushViewController(homeView, animated: true)
 
     // You Can Set Root ViewController to NavigationController instead of Push
-    // viewController?.navigationController.viewControllers([homeView], animated: true)
+    // viewController?.navigationController.setViewControllers([homeView], animated: true)
 }
 ```
 

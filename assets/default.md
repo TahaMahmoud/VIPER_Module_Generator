@@ -216,7 +216,7 @@ class LoginRouter: LoginRouterProtocol {
         viewController?.navigationController.pushViewController(homeViewController, animated: false)
         
         // You Can Set Root ViewController to NavigationController instead of Push
-        // viewController?.navigationController.viewControllers([homeViewController], animated: true)
+        // viewController?.navigationController.setViewControllers([homeViewController], animated: true)
 
     }
         
