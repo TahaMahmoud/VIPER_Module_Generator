@@ -128,7 +128,12 @@ In `LoginRouter` file, you will implement the `navigateToHome` method with the f
 ```swift 
 func navigateToHome() { 
     let homeView = HomeRouter.createModule()
+
+    // You Can Push ViewController to NavigationController
     viewController?.navigationController.pushViewController(homeView, animated: true)
+
+    // You Can Set Root ViewController to NavigationController instead of Push
+    // viewController?.navigationController.viewControllers([homeView], animated: true)
 }
 ```
 

@@ -211,7 +211,13 @@ class LoginRouter: LoginRouterProtocol {
 
     func navigateToHome() {
         let homeViewController = HomeRouter.createModule()
+
+        // You Can Push ViewController to NavigationController
         viewController?.navigationController.pushViewController(homeViewController, animated: false)
+        
+        // You Can Set Root ViewController to NavigationController instead of Push
+        // viewController?.navigationController.viewControllers([homeViewController], animated: true)
+
     }
         
     func navigateToForgetPassword() {
