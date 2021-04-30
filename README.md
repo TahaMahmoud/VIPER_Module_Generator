@@ -52,16 +52,16 @@ This is an example, we're creating a `Login` module:
 
 - [Login module](/assets/default.md)
 
-#### Main Router
+## Main Router
 This is the Main Router of the application (`AppCoordinator`) 
 
 | File Name | Acts As | Description |
 | :---         |     :---      |          :--- |
 | `MainRouter.swift`   | AppCoordinator     | This is the Main Router of the application   |
 
-#### Routing 
+## Routing 
 
-- In `AppDelegate` and `SceneDelegate`
+#### In `AppDelegate` and `SceneDelegate`
 If you want to start with specific Module (ViewController) in AppDelegate or SceneDelegate
 
 1- Change the following code in `MainRouter` with your initial View Controller
@@ -113,7 +113,7 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
 }
 ```
 
-- Navigate From Module to another 
+#### Navigate From Module to another 
 If you are in specific module and want to navigate to another module
 
 Assuming that you have `LoginModule` and `HomeModule`
@@ -166,7 +166,7 @@ To get started easier, we’ve prepared a list of notes to make sure everything 
 
 ## Contributed
 This is an open source project, so feel free to contribute.
-- Open an [issue](https://github.com/TahaMahmoud/VIPER-Module-Generator/issues/new).
+- Open an [issue](https://github.com/TahaMahmoud/VIPER_Module_Generator/issues/new).
 
 ## Authors:
 Created by 

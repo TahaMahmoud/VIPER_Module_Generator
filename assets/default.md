@@ -1,4 +1,4 @@
-## Default Login Module
+## Login Module Example
 
 **LoginProtocols**
 
