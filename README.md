@@ -25,6 +25,8 @@ Go to Application folder, browse to the Xcode application icon. Right-click it a
 `Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application` and add "VIPERModule.xctemplate" file. Now you can find your template in Xcode.
 
 ## Easy to use
+#### In your Modules (Scences) Folder, Create New Group with the Module Name
+#### Then, Create New File in Created Group, Choose VIPERModule and Enter Module Name
 ![](/assets/wizard.png)
 
 
