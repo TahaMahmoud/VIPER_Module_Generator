@@ -42,7 +42,7 @@ This template generates all files that you need to create a new VIPER module. Al
 | `_ModuleName_Model.swift`   | Entity     | This is the Entity, It's should be a String respresntation of your Model  |
 | `_ModuleName_ViewController.swift`    | View   |  This is where are IBActions and Outlets should be connected and call the presenter  |
 | `_ModuleName_ViewController+Delegates.swift`    | Presenter to View     | Here we implement the methods that presenter use to cammunicate with the view   |
-| `_ModuleName_Presenter.swift`    | Presenter |    This is what will communicate with the View, Interactor and Router   |
+| `_ModuleName_Presenter.swift`    | Presenter |    This is contains logic and communicate with the View, Interactor and Router   |
 | `_ModuleName_Interactor.swift`    | Interactor  | This is what will communicate with the Data Layer and Entity   |
 | `_ModuleName_Router.swift`    | Router     | This is where your routes to another views should be     |
 | `_ModuleName_ViewController.xib`    | UIView     | This is where your design layout should be    |
